@@ -30,7 +30,7 @@ namespace Q3_MonoGame
 
         protected override void Initialize()
         {
-            ActivityAPIClient.Track(StudentID: "S00213942", StudentName: "Emmet Carroll", activityName: "DSAA Week 6 Labs 2022", Task: "Week 6 Lab 1 playing sounds.");
+            ActivityAPIClient.Track(StudentID: "S00213942", StudentName: "Emmet Carroll", activityName: "DSAA FinalExam", Task: "Question 3b");
             new InputEngine(this);
             base.Initialize();
         }
