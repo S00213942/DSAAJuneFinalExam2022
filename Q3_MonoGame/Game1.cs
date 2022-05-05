@@ -14,13 +14,7 @@ namespace Q3_MonoGame
 {
     public class Game1 : Game
     {
-        private GraphicsDeviceManager _graphics;
-        private SpriteBatch _spriteBatch;
-        Dictionary<string, SimpleSprite> objSprite;
-        //Random random;
-        List<string> objectList;
-        List<string> soundList;
-        SoundEffectInstance sound;
+        
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -30,7 +24,7 @@ namespace Q3_MonoGame
 
         protected override void Initialize()
         {
-            ActivityAPIClient.Track(StudentID: "S00213942", StudentName: "Emmet Carroll", activityName: "DSAA FinalExam", Task: "Question 3b");
+            ActivityAPIClient.Track(StudentID: "S00213942", StudentName: "Emmet Carroll", activityName: "DSAA FinalExam", Task: "Question 3c");
             new InputEngine(this);
             base.Initialize();
         }
